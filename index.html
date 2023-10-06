@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel website</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- javascript  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid mt-3">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><div id="nav-hed">Ex<span>pe</span>di<span>ti</span>on</div></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Packages"
+                  >Packages</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <button class="btn btn-outline-success" type="submit">
+              Login or Sign Up
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!--  section -->
+    <div id="Home">
+      <div class="container-fluid  mt-5">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./images/tr1.avif" class="d-block w-100" alt="image1">
+              <div class="carousel-caption d-none d-md-block">
+                
+                <p id="pr" > WELCOME TO EXPEDITION TRAVELS</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/tr2.avif" class="d-block w-100" alt="image2">
+              <div class="carousel-caption d-none d-md-block">
+               
+                <p id="tr">EXPLORE THE WORLD WITH US</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="./images/tr3.avif" class="d-block w-100" alt="image3">
+              <div class="carousel-caption d-none d-md-block">
+               
+                <p id="gr">TO TRAVEL IS TO LIVE</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      
+      
+      </div>
+      
+
+    <!-- About section -->
+    <div class="mt-5">
+      <h3 class="text-center">About us</h3>
+    </div>
+
+    <div id="About">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mb-3 mb-sm-0">
+            <div class="card mt-5 bg-danger border-danger text-center ">
+              <div class="card-body ">
+                <h5 class="card-title">About us</h5>
+                <p class="card-text">
+                  At Expedition, we are passionate about turning travel dreams
+                  into reality. With years of experience in the industry, we
+                  take pride in our dedication to creating unforgettable
+                  journeys that inspire and enrich the lives of our travelers.
+                </p>
+                <a href="#" class="btn btn-dark se-but ">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+            <div class="card  mt-5 bg-success border-success text-center ">
+              <div class="card-body crd">
+                <h5 class="card-title">Our History</h5>
+                <p class="card-text">
+                  Established in 1998, Expedition has grown to become a trusted
+                  industry name, dedicated to crafting unforgettable
+                  journeys.Our rich history is a testament to our commitment to
+                  excellence and the countless memories we've created.
+                </p>
+                <a href="#" class="btn btn-dark se-but ">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3 mb-3 mb-sm-0 ">
+            <div class="card  mt-5 bg-warning border-warning text-center">
+              <div class="card-body ">
+                <h5 class="card-title">Our vision</h5>
+                <p class="card-text">
+                  Expedition envisions revolutionizing travel, offering
+                  sustainable, immersive experiences that foster global
+                  connections. We aspire to be at the forefront of a travel
+                  industry that values sustainability and cultural enrichment.
+                </p>
+                <a href="#" class="btn btn-dark se-but ">Learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 mt-3">
+            <div class="card  mt-5  bg-primary border-primary text-center">
+              <div class="card-body ">
+                <h5 class="card-title">Our services</h5>
+                <p class="card-text">
+                  Discover a world of travel possibilities with our comprehensive services. From booking your ideal destination to crafting personalized itineraries, we're committed to ensuring your journey memorable.
+                </p>
+                <a href="#" class="btn btn-dark se-but ">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Packages -->
+    <div class="text-center mt-5">
+      <h3 class="text-dark ">Our Packages</h3>
+    </div>
+    <div id="Packages">
+      <div class="container-fluid mt-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mt-5" style="width: 100%">
+              <img src="./images/tr4.jpeg" class="card-img-top" alt="image4" />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-center">Gold</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-dark text-center">₹1,80,000</li>
+                <li class="list-group-item text-dark text-center">
+                  Turkey,Austria
+                </li>
+                <li class="list-group-item text-dark text-center">1.5 month</li>
+              </ul>
+              <div class="card-body bg-dark text-center">
+                <button type="button" class="btn btn-success">Book</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mt-5" style="width: 100%">
+              <img src="./images/tr5.jpeg" class="card-img-top" alt="image5" />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-center">Silver</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-dark text-center">₹2,70,000</li>
+                <li class="list-group-item text-dark text-center">
+                  Turkey,Austria
+                </li>
+                <li class="list-group-item text-dark text-center">1.5 month</li>
+              </ul>
+              <div class="card-body bg-dark text-center">
+                <button type="button" class="btn btn-success">Book</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mt-5" style="width: 100%">
+              <img src="./images/tr6.jpeg" class="card-img-top" alt="image6" />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-center">Platinum</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-dark text-center">₹3,90,000</li>
+                <li class="list-group-item text-dark text-center">
+                  Craotia,Denmark
+                </li>
+                <li class="list-group-item text-dark text-center">2 Month</li>
+              </ul>
+              <div class="card-body bg-dark text-center">
+                <button type="button" class="btn btn-success">Book</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mt-5" style="width: 100%">
+              <img src="./images/tr7.jpeg" class="card-img-top" alt="image7" />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-center">Diamond</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-dark text-center">₹4,00,000</li>
+                <li class="list-group-item text-dark text-center">
+                  Switzerland,Mexico,Portugal
+                </li>
+                <li class="list-group-item text-dark text-center">3 Months</li>
+              </ul>
+              <div class="card-body bg-dark text-center">
+                <button type="button" class="btn btn-success">Book</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="pack" class="container-fluid mt-3">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mt-5" style="width: 100%">
+              <img src="./images/tr8.jpeg" class="card-img-top" alt="image8" />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-center">Pearl</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-dark text-center">₹4,80,000</li>
+                <li class="list-group-item text-dark text-center">Spain</li>
+                <li class="list-group-item text-dark text-center">4 Month</li>
+              </ul>
+              <div class="card-body bg-dark text-center">
+                <button type="button" class="btn btn-success">Book</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mt-5" style="width: 100%">
+              <img src="./images/tr9.jpeg" class="card-img-top" alt="image9" />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-center">Ruby</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-dark text-center">₹6,70,000</li>
+                <li class="list-group-item text-dark text-center">
+                  Italy,Norway
+                </li>
+                <li class="list-group-item text-dark text-center">
+                  5 Months
+                </li>
+              </ul>
+              <div class="card-body bg-dark text-center">
+                <button type="button" class="btn btn-success">Book</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mt-5" style="width: 100%">
+              <img
+                src="./images/tr10.jpeg"
+                class="card-img-top"
+                alt="image10"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-center">Sapphire</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-dark text-center">₹7,90,000</li>
+                <li class="list-group-item text-dark text-center">
+                  Australia,Canada
+                <li class="list-group-item text-dark text-center">5.5 Months</li>
+              </ul>
+              <div class="card-body bg-dark text-center">
+                <button type="button" class="btn btn-success">Book</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="card mt-5" style="width: 100%">
+              <img
+                src="./images/tr11.webp"
+                class="card-img-top"
+                alt="image11"
+              />
+              <div class="card-body">
+                <h5 class="card-title text-dark text-center">Emerald</h5>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item text-dark text-center">₹8,50,000</li>
+                <li class="list-group-item text-dark text-center">
+                  Brazil,France,Holand
+                <li class="list-group-item text-dark text-center">6 Months</li>
+              </ul>
+              <div class="card-body bg-dark text-center">
+                <button type="button" class="btn btn-success">Book</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+    <div class="text-center mt-5" id="Services">
+      <h3 class="text-dark">Our Services</h3>
+    </div>
+    <div id="services" class="container-fluid ">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card mt-5" style="width: 100%">
+            <img src="./images/tr12.jpeg" class="card-img-top" alt="image12" />
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">Destinations</h5>
+
+              <a href="#" class="btn btn-primary mt-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card mt-5" style="width: 100%">
+            <img src="./images/tr13.jpeg" class="card-img-top" alt="image13" />
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">Bookings</h5>
+
+              <a href="#" class="btn btn-primary mt-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card mt-5 " style="width: 100%">
+            <img src="./images/tr14.webp" class="card-img-top" alt="image14" />
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">Support</h5>
+              <a href="#" class="btn btn-primary mt-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="services" class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card mt-5 " style="width: 100%">
+            <img src="./images/tr15.jpeg" class="card-img-top" alt="image15" />
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">Insurance</h5>
+              <a href="#" class="btn btn-primary mt-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card mt-5" style="width: 100%">
+            <img src="./images/tr16.jpeg" class="card-img-top" alt="image16" />
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">Tour Guidance</h5>
+
+              <a href="#" class="btn btn-primary mt-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="card mt-5" style="width: 100%">
+            <img src="./images/tr17.jpeg" class="card-img-top" alt="image17" />
+            <div class="card-body text-center">
+              <h5 class="card-title text-center">Accomodation</h5>
+
+              <a href="#" class="btn btn-primary mt-3">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="Contact" class="text-center mt-5">
+      <h3 class="text-dark">Contact us</h3>
+    </div>
+    <div class="co container-fluid mt-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <h3 class="foot-hed mt-3">Exped<span>ition</span></h3>
+          <div class="f-par">
+            <p class="foot-para">
+              Explore the world with Expedition and embark on
+              unforgettable journeys. Let your wanderlust guide you to new
+              horizons, one adventure at a time.Join us in creating lasting
+              memories and discovering the beauty of diverse cultures and
+              landscapes, all with the convenience of seamless travel planning.
+            </p>
+          </div>
+          <div class="foot-cp">
+            <p>
+              <button
+                class="btn btn-primary  opacity-100"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseWidthExample"
+                aria-expanded="false"
+                aria-controls="collapseWidthExample"
+              >
+                Follow us
+              </button>
+            </p>
+            <div style="min-height: 120px">
+              <div
+                class="collapse collapse-horizontal"
+                id="collapseWidthExample"
+              >
+                <div class="card card-body" style="width: 300px">
+                  <i class="fa-brands ic fa-facebook"></i>
+                  <i class="fa-brands ic fa-whatsapp"></i>
+                  <i class="fa-brands ic fa-twitter"></i>
+                  <i class="fa-brands ic fa-instagram"></i>
+                  <i class="fa-brands ic fa-snapchat"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center mt-3">
+          <h3 class="fot-he " >More Info</h3>
+          
+            <div class="foot-lis">
+            <ul>
+            <a href=""><li>Blog</li></a>
+            <a href=""><li>FAQ</li></a>
+            <a href=""> <li>Privacy Policy</li></a>
+            <a href=""><li>Terms and Conditions</li></a>
+            <a href=""><li>Site Map</li></a>
+          </ul>
+            </div>
+            
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 mt-3">
+          <form class="foot-f h-100 text-center">
+            <h3 class="text-center">Contact us</h3>
+            <div class="form-floating mx-auto mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Name</label>
+            </div>
+            <div class="form-floating mx-auto mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mx-auto mb-3">
+            <input
+                type="tel"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Enter your phone number"
+              />
+              <label for="floatingInput">Phone number</label>
+            </div>
+
+            <button type="submit" id="f-h"  class="btn mt-5 text-center bg-primary">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+      <hr id="hor" />
+
+      <p class="text-center f-f">
+        &copy;My Travel website design 2023,All Rights Reserved &reg;Robin
+        Michael
+      </p>
+    </div>
+  </body>
+</html>
